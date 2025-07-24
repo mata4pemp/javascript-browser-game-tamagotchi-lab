@@ -32,6 +32,8 @@ function init() {
   state.boredom = 0;
   state.hunger = 0;
   state.sleepiness = 0;
+
+  render(); //change the state to zero then render is to SHOW it on the screen ASAP
   resetButtonElement.classList.add("hidden");
   gameMessageElement.classList.add("hidden");
   clearInterval(timer);
