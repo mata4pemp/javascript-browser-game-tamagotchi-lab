@@ -112,3 +112,5 @@ init();
 //    `handleClick()` function.
 
 // 7) Create reset functionality.
+
+//adding additional code to see if commit works
